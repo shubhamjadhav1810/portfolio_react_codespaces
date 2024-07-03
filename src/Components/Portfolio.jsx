@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg-portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with tabs, mobile and laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Movie Club (Learning react-router project)",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Basically simple web app contain different routes signup login and dashboard page with interactive UI design.",
+    url: "https://movieclubrouter.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Personal Portfolio web app",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Personal portfolio web app to showcase my skills, projects to everyone with github and social links.",
+    url: "https://shubhamwebportfolio.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Ecomzy - shopping cart ",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Shopping cart web app.Content in this app was fetched from API's with interactive E-commerce design",
+    url: "https://shoppingcartdemoredux.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "WE LOVE GIF's",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This app will help to find GIF's randomly or category wise using API's in React and Tailwind CSS",
+    url: "https://welovegif.netlify.app/",
   },
 ];
 
